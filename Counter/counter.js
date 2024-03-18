@@ -17,6 +17,6 @@ addBtn.addEventListener('click', function adding (Accep) {
 
 restBtn.addEventListener('click',function reset (){
     counting = 0
-    navigator.vibrate([400, 300, 400])
+    navigator.vibrate([400])
     jsCount()
 })
